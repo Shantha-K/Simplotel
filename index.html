@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayank</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+    <nav>
+        <div class="navbar">
+            <a id="navitem">Home</a>
+            <a id="navitem">Order</a>
+            <a id="navitem">Food</a>
+            <a id="navitem">Restaurant</a>
+            <a id="navitem">Testimonials</a>
+            <a id="navitem">Contact Us</a>
+            <img src="./images/menu-bar.png" alt="error" />
+        </div>
+    </nav>
+    <!-- <div class="navbar-menu">
+        <a class="navitem" href="#">Home</a>
+        <a class="navitem" href="#">Order</a>
+        <a class="navitem" href="#">Food</a>
+        <a class="navitem" href="#">Restaurant</a>
+        <a class="navitem" href="#">Testimonials</a>
+        <a class="navitem" href="#">Contact Us</a>
+    </div> -->
+   
+    <div class="main">
+        <div class="container">
+            <div class="text">
+                <h1>LOREM IPSUM</h1>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                    rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                    dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                    Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                    Sed pulvinar, massa ac porta viverra.
+                </h4>
+                <div class="button">Click Me</div>
+            </div>
+            <div class="image">
+                <img class="image-front" src="./images/pexels-robin-stickel-70497.jpg" alt="error" />
+            </div>
+        </div>
+        <div class="second">
+            <div class="grid">
+                <div class="item1">
+                    <img class="grid-image" src="images/pexels-rachel-claire-6752433.jpg" alt="image 1" />
+                </div>
+                <div class="item2">
+                    <img class="grid-image2" src="images/pexels-mister-mister-3434523.jpg" alt="image 2" />
+                </div>
+                <div class="item3">
+                    <img class="grid-image" src="images/pexels-eva-bronzini-6141651.jpg" alt="image 3" />
+                </div>
+            </div>
+            <div class="item4">
+                <div class="sub-container">
+                    <h4>LOREM IPSUM</h4>
+                    <h1>
+                        LOREM IPSUM SET ADEMIR
+                    </h1>
+                    <div class="click-image">
+                        <div class="click">Click</div>
+                        <img src="images/icons8-arrow-30.png" alt="error" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.getElementById("menu-icon");
+        const navbarMenu = document.querySelector(".navbar-menu");
+
+        menuIcon.addEventListener("click", function () {
+            navbarMenu.classList.toggle("show");
+        });
+    });
+</script>
+</body>
+
+</html>
